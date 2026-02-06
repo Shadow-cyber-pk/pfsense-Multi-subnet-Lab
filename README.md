@@ -5,10 +5,10 @@ This is a virtual lab using VMware with pfsense based routing, firewalls rules a
 This lab demonstrates how i **deployed pfsense as a router and firewall** to connect and control traffic between **two isolated** IPv4 subnets in a virtualized enviroment on VMware. 
 
 ## Lab Objectives
-• Gain hands on experience on **configuring firewall rules** with multiple interfaces.
-- • Gain experience in making isolated networks.
-- • Enable **inter-subnet routing**
-- • Verify connectivity between isolated networks.
+- Gain hands on experience on **configuring firewall rules** with multiple interfaces.
+- Gain experience in making isolated networks.
+- Enable **inter-subnet routing**
+- Verify connectivity between isolated networks.
 
 ## Network Topology 
 • **LAN Subnet**: 192.168.10.0/24
