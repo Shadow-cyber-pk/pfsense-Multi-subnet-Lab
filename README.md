@@ -6,9 +6,9 @@ This lab demonstrates how i **deployed pfsense as a router and firewall** to con
 
 ## Lab Objectives
 • Gain hands on experience on **configuring firewall rules** with multiple interfaces.
-• Gain experience in making isolated networks.
-• Enable **inter-subnet routing**
-• Verify connectivity between isolated networks.
+- • Gain experience in making isolated networks.
+- • Enable **inter-subnet routing**
+- • Verify connectivity between isolated networks.
 
 ## Network Topology 
 • **LAN Subnet**: 192.168.10.0/24
