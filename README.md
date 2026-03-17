@@ -1,4 +1,4 @@
-# pfsense-Multi-subnet-Lab
+# pfsense-network-security-Lab
 This is a virtual lab using VMware with pfsense based routing, firewalls rules and inter-subnet communications between isolated networks.
 
 # pfsense Multi-Subnet Routing & Firewall Lab
