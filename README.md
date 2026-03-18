@@ -1,11 +1,18 @@
+# pfsense-Network-Security-Lab
+This is a virtual lab using VMware with pfsense based routing, firewalls rules and inter-subnet communications between isolated networks.
+
+
 ## 🚀 Project Phases
 * **[Phase 1: Network Expansion](https://github.com/Shadow-cyber-pk/pfsense-Multi-subnet-Lab/blob/main/Phase-1-Controlled-internet-access.md)** - Grating Network Access and hardning pfSense.
 * **[Phase 2: Security & VPN](https://github.com/Shadow-cyber-pk/pfsense-Multi-subnet-Lab/blob/main/Phase-2-Client-to-Site-VPN.md)** - Hardening the firewall and OpenVPN configuration.
 * **[Phase 3: Hardning & NGINX server](https://github.com/Shadow-cyber-pk/pfsense-Multi-subnet-Lab/blob/main/Phase-3-Secure-Web-Gateway-%26-CGNAT-Bypass.md)** -
 Making a nginx web server and hardning the Web Server
 
-# pfsense-Network-Security-Lab
-This is a virtual lab using VMware with pfsense based routing, firewalls rules and inter-subnet communications between isolated networks.
+
+
+# pfSense Multi-Subnet Routing & Firewall Lab
+
+![Network Topology Diagram](https://github.com/Shadow-cyber-pk/pfsense-Multi-subnet-Lab/blob/3e41798101ba6705cd2acd29f3ebfbfb3f6f970d/images/pfSense_Network_Topology.drawio.svg)
 
 # pfsense Multi-Subnet Routing & Firewall Lab
 This lab demonstrates how i **deployed pfsense as a router and firewall** to connect and control traffic between **two isolated** IPv4 subnets in a virtualized enviroment on VMware. 
