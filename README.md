@@ -25,7 +25,7 @@ This lab demonstrates how i **deployed pfsense as a router and firewall** to con
  - **pfsense OPT1**: 192.168.20.0
  - **Kali Linux**: 192.168.20.3
 
-## Enviroment
+## Environment
 - VMware Workstation pro
 - pfsense CE
 - Kali Linux
@@ -38,8 +38,8 @@ This lab demonstrates how i **deployed pfsense as a router and firewall** to con
 - VMware **custom vmnets** used as isolated networks.
 
 ## Verification & Testing
-- Sucessful **ICMP ping** from kali to Ubuntu.
-- Sucessful **ICMP ping** from Ubuntu to Kali.
+- Successful **ICMP ping** from kali to Ubuntu.
+- Successful **ICMP ping** from Ubuntu to Kali.
 - pfsense diagnostics confirming routing functionality.
 
 ## Skills Demonstrated
@@ -47,7 +47,7 @@ This lab demonstrates how i **deployed pfsense as a router and firewall** to con
 - Inter-subnet routing and testing.
 - Network troubleshooting and diagnostics.
 
-## Issues encountered 
+## Troubleshooting & Root Cause Analysis 
 - Initial difficulty accessing the pfsense webgui due to VMware vmnets not being assined the correct ip address.
 - Interface-subnet ICMP traffic blocked between OPT1(Kali) and LAN(Ubuntu) until firewall rules were corrected.
 - Asymmetric connectivity observed(LAN OPT1 worked, OPT1 LAN failed).
