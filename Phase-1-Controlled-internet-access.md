@@ -225,7 +225,7 @@ and ports instead of allowing all traffic.
 
 ### Troubleshooting Log
 
-#### No Internet Access After Initial Configuration
+### 1. No Internet Access After Initial Configuration
 
 **Symptoms**: Kali Linux unable to access the internet despite NAT and firewall rules configured
 
@@ -255,14 +255,14 @@ and ports instead of allowing all traffic.
 
 
 
-#### **Unable to Access pfSense Web GUI from Host**
+### 2. Unable to Access pfSense Web GUI from Host
 
 **Symptoms**: Could not connect to pfSense web interface from host machine
 
 **Workaround**: Accessed web GUI through Kali Linux VM after switching it to the LAN
 
 
-#### Persistent Internet Connectivity Issues
+### 3. Persistent Internet Connectivity Issues
 
 **Symptoms**: Even after network adapter changes, still no internet access (ping 8.8.8.8 failed)
 
@@ -275,7 +275,7 @@ and ports instead of allowing all traffic.
 
 
 
-#### "Connect Host Virtual Adapter" Blocking Internet
+### 4. "Connect Host Virtual Adapter" Blocking Internet
 
 **Root Cause**: The "Connect a host virtual adapter to this network" option was enabled on virtual networks, preventing
 internet connectivity
@@ -297,7 +297,7 @@ internet connectivity
 
 
 
-#### Ubuntu Server No IP Address
+### 5. Ubuntu Server No IP Address
 
 **Symptoms**: Ubuntu Server had no IPv4 address assignment
 
@@ -325,7 +325,7 @@ internet connectivity
 
 
 
-#### Ubuntu DNS and Protocol Issues
+### 6. Ubuntu DNS and Protocol Issues
 
 Symptoms:
 
@@ -490,5 +490,3 @@ Verify:
 
 
 ---
-
-End of Technical Documentation
