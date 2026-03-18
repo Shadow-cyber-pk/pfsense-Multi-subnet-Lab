@@ -8,7 +8,7 @@
 ## Overview (TL;DR)
 
 This lab documents the complete deployment of a client-to-site VPN on pfSense, 
-root-cause analysis of a connection failure caused by ISP CGNAT blocking, and final 
+root-cause analysis of a connection failure caused by ISP **CGNAT** blocking, and final 
 resolution using Tailscale as a functional overlay solution. Key learning: OpenVPN 
 configuration was correct; failure was environmental, not configuration-related.
 
