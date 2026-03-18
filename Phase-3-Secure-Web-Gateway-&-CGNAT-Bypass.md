@@ -44,7 +44,8 @@ During the lab, several "real-world" networking hurdles were encountered and res
 - **NTP Sync**: Corrected system time synchronization issues by setting the timezone to Asia/Karachi and forcing an NTP update to ensure accurate logging.
 # 5. Verification (The Evidence)
 ## Nmap Reconnaissance Results
-A scan from Kali against the public URL revealed a hardened posture:
+Verified Server Tokens were disabled, preventing version disclosure (Security through Obscurity).
+- A scan from Kali against the public URL revealed a hardened posture:
 - **Port 80/443**: Open (NGINX version hidden).
 - **Port 22**: Open (Restricted to authorized IP only).
 - **Service Detection**: Identifies as nginx (Generic), preventing targeted version-specific exploits.
