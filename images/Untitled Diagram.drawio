@@ -1,0 +1,93 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.3.8">
+  <diagram name="Page-1" id="FrKobM52r2O0J6ZqSBU2">
+    <mxGraphModel dx="2123" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kR4ZM1igGMoMYrJY6-jh-1" parent="1" style="cloud;whiteSpace=wrap;html=1;" value="Internet" vertex="1">
+          <mxGeometry height="80" width="120" x="220" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="kR4ZM1igGMoMYrJY6-jh-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="WAN – vmnet8 (DHCP from host)" vertex="1">
+          <mxGeometry height="60" width="180" x="190" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="kR4ZM1igGMoMYrJY6-jh-3" parent="1" style="shape=mxgraph.cisco.firewall;whiteSpace=wrap;html=1;" value="pfSense Firewall/Router" vertex="1">
+          <mxGeometry height="80" width="140" x="210" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="kR4ZM1igGMoMYrJY6-jh-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LAN – vmnet2&lt;br&gt;Subnet: 192.168.10.0/24&lt;br&gt;Gateway: 192.168.10.1" vertex="1">
+          <mxGeometry height="80" width="180" x="20" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="kR4ZM1igGMoMYrJY6-jh-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kali Linux&lt;br&gt;DHCP: 192.168.10.100–200" vertex="1">
+          <mxGeometry height="60" width="160" x="30" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="kR4ZM1igGMoMYrJY6-jh-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="OPT1 – vmnet3&lt;br&gt;Subnet: 192.168.20.0/24&lt;br&gt;Gateway: 192.168.20.1" vertex="1">
+          <mxGeometry height="80" width="180" x="360" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="kR4ZM1igGMoMYrJY6-jh-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Ubuntu Server&lt;br&gt;DHCP: 192.168.20.100–200" vertex="1">
+          <mxGeometry height="60" width="160" x="370" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="kR4ZM1igGMoMYrJY6-jh-8" edge="1" parent="1" source="kR4ZM1igGMoMYrJY6-jh-1" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="kR4ZM1igGMoMYrJY6-jh-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="670" as="sourcePoint" />
+            <mxPoint x="280" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kR4ZM1igGMoMYrJY6-jh-9" edge="1" parent="1" source="kR4ZM1igGMoMYrJY6-jh-2" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="kR4ZM1igGMoMYrJY6-jh-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="770" as="sourcePoint" />
+            <mxPoint x="280" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kR4ZM1igGMoMYrJY6-jh-10" edge="1" parent="1" source="kR4ZM1igGMoMYrJY6-jh-3" style="endArrow=classic;html=1;exitX=0.25;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="kR4ZM1igGMoMYrJY6-jh-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="245" y="900" as="sourcePoint" />
+            <mxPoint x="110" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kR4ZM1igGMoMYrJY6-jh-11" edge="1" parent="1" source="kR4ZM1igGMoMYrJY6-jh-3" style="endArrow=classic;html=1;exitX=0.75;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="kR4ZM1igGMoMYrJY6-jh-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="315" y="900" as="sourcePoint" />
+            <mxPoint x="450" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kR4ZM1igGMoMYrJY6-jh-12" edge="1" parent="1" source="kR4ZM1igGMoMYrJY6-jh-4" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="kR4ZM1igGMoMYrJY6-jh-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="1030" as="sourcePoint" />
+            <mxPoint x="110" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kR4ZM1igGMoMYrJY6-jh-13" edge="1" parent="1" source="kR4ZM1igGMoMYrJY6-jh-6" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="kR4ZM1igGMoMYrJY6-jh-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="1030" as="sourcePoint" />
+            <mxPoint x="450" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kR4ZM1igGMoMYrJY6-jh-14" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Automatic Outbound NAT enabled" vertex="1">
+          <mxGeometry height="30" width="200" x="360" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="kR4ZM1igGMoMYrJY6-jh-15" parent="1" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Firewall rules allow:&lt;ul&gt;&lt;li&gt;TCP 80 (HTTP)&lt;/li&gt;&lt;li&gt;TCP 443 (HTTPS)&lt;/li&gt;&lt;li&gt;UDP/TCP 53 (DNS)&lt;/li&gt;&lt;li&gt;ICMP&lt;/li&gt;&lt;li&gt;SSH from Host toUbuntu Server&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="120" width="230" x="360" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="kR4ZM1igGMoMYrJY6-jh-16" edge="1" parent="1" source="kR4ZM1igGMoMYrJY6-jh-4" style="endArrow=classic;html=1;strokeColor=#008000;fontColor=#008000;dashed=1;exitX=0;exitY=0.5;entryX=0;entryY=0.5;curved=1;rounded=0;" target="kR4ZM1igGMoMYrJY6-jh-2" value="Outbound NAT to WAN">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-10" y="990" />
+              <mxPoint x="-10" y="740" />
+            </Array>
+            <mxPoint x="20" y="990" as="sourcePoint" />
+            <mxPoint x="190" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kR4ZM1igGMoMYrJY6-jh-17" edge="1" parent="1" source="kR4ZM1igGMoMYrJY6-jh-6" style="endArrow=classic;html=1;strokeColor=#008000;fontColor=#008000;dashed=1;exitX=1;exitY=0.5;entryX=1;entryY=0.5;curved=1;rounded=0;" target="kR4ZM1igGMoMYrJY6-jh-2" value="Outbound NAT to WAN">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="990" />
+              <mxPoint x="570" y="740" />
+            </Array>
+            <mxPoint x="540" y="990" as="sourcePoint" />
+            <mxPoint x="370" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
