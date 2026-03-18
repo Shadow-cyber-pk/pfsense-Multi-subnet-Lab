@@ -306,7 +306,7 @@ Navigate to: VPN → OpenVPN → Clients → Add
 
 
 
-## issue
+## Issue
 
 - No download option available
 
