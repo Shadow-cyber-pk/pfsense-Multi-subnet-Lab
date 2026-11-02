@@ -25,7 +25,7 @@ local environment.
 - Generated a **Self-Signed Certificate** via OpenSSL:
   - Key: 2048-bit RSA
   - Purpose: Local encryption for internal LAN testing (Port 443).
-- Configured HSTS (301 Redirects): Forced all insecure Port 80 requests hitting the local IP to upgrade to HTTPS.
+- Configured HTTP-to-HTTPS redirect (301): Forced all insecure Port 80 requests hitting the local IP to upgrade to HTTPS.
 ## Step 3: NGINX Hardening
 - **Server Tokens**: Modified /etc/nginx/nginx.conf to set server_tokens off;.
   - Result: Nmap scans no longer disclose the NGINX version number.
@@ -59,4 +59,4 @@ This project confirms that secure service delivery is possible even in restricte
 (Firewalls/Routing) and **Modern Cloud-Native Security** (Zero-Trust/Tunneling).
 
 ### Nmap scan after hardening
-![image alt](https://github.com/Shadow-cyber-pk/pfsense-Multi-subnet-Lab/blob/fcfa440f10eaeca3ea847f8deacea910d2963de4/images/Screenshot%202026-03-06%20040400.png)
+![image alt](images/Screenshot%202026-03-06%20040400.png)

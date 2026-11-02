@@ -496,7 +496,7 @@ sudo systemctl start ssh
 ![image alt](https://github.com/Shadow-cyber-pk/pfsense-Multi-subnet-Lab/blob/ffe2a9cf2ba8dbcb8b920f9494d444ba13f14503/images/censored-ping-fail.jpeg)
 
 - After tailscale was setup
-![image alt](https://github.com/Shadow-cyber-pk/pfsense-Multi-subnet-Lab/blob/ffe2a9cf2ba8dbcb8b920f9494d444ba13f14503/images/censored-ping-sucessful.jpeg)
+![image alt](images/censored-ping-successful.jpeg)
 
 ### ping using tailscale ip
 ![image alt](https://github.com/Shadow-cyber-pk/pfsense-Multi-subnet-Lab/blob/ffe2a9cf2ba8dbcb8b920f9494d444ba13f14503/images/tailscale-ping.jpeg)
