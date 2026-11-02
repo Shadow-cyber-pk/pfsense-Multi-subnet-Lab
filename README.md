@@ -35,5 +35,5 @@ Designed and implemented a simulated enterprise network using pfSense, featuring
 
 ## Project Phases
 * **[Phase 1: Network segmentation and access control](https://github.com/Shadow-cyber-pk/pfsense-Multi-subnet-Lab/blob/main/Phase-1-Controlled-internet-access.md)**
-* **[Phase 2: VPN configuration and firewall hardening](https://github.com/Shadow-cyber-pk/pfsense-Multi-subnet-Lab/blob/main/Phase-1-Controlled-internet-access.md)**
+* **[Phase 2: VPN configuration and firewall hardening](https://github.com/Shadow-cyber-pk/pfsense-Multi-subnet-Lab/blob/main/Phase-2-Client-to-Site-VPN.md)**
 * **[Phase 3: Secure web gateway deployment and NAT configuration](https://github.com/Shadow-cyber-pk/pfsense-Multi-subnet-Lab/blob/main/Phase-3-Secure-Web-Gateway-%26-CGNAT-Bypass.md)**
